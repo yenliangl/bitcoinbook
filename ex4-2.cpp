@@ -49,7 +49,7 @@ int main()
     {
         // generate bitcoin address from a compressed public key.
         const std::string address = get_address(bc::bitcoin_short_hash(public_ckey));
-        std::cout << "Bitcoin Address from compressed pubic key:    " << address << std::endl;
+        std::cout << "Bitcoin Address from   compressed public key: " << address << std::endl;
     }
 
     return 0;
